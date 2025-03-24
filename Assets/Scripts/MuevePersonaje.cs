@@ -1,3 +1,5 @@
+// Yael Michel García López A01750911
+
 using System;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -27,6 +29,7 @@ public class MuevePersonaje : MonoBehaviour
     }
 
     // Update is called once per frame
+    // movimiento del personaje segun la entrada del usuario
     void FixedUpdate()
     {
         float movHorizontal = Input.GetAxis("Horizontal");

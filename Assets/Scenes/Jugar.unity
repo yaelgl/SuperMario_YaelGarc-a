@@ -883,7 +883,7 @@ GameObject:
   - component: {fileID: 742607937}
   - component: {fileID: 742607936}
   m_Layer: 0
-  m_Name: MapaProps
+  m_Name: MapaCapa1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3041,7 +3041,7 @@ GameObject:
   - component: {fileID: 2038841494}
   - component: {fileID: 2038841493}
   m_Layer: 0
-  m_Name: MapaFondo
+  m_Name: MapaCapa0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

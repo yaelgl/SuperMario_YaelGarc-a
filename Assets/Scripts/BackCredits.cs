@@ -1,3 +1,5 @@
+// Yael Michel García López A01750911
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,6 +16,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         
     }
+    // Carga la escena Menu
     public void Creditos(){
         SceneManager.LoadScene("Menu");
     }

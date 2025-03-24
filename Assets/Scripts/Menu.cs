@@ -1,3 +1,5 @@
+// Yael Michel García López A01750911
+
 using System;
 using UnityEditor;
 using UnityEngine;
@@ -6,6 +8,7 @@ using UnityEngine.UIElements;
 
 public class Menu : MonoBehaviour
 {
+    // Declaramos los componentes y botones
     private UIDocument menu;
     private Button botonA;
     private Button botonB;
@@ -15,6 +18,7 @@ public class Menu : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        // Configura los botones de la interfaz y asigna eventos para cambiar de escena
         menu = GetComponent<UIDocument>();
         var root = menu.rootVisualElement;
 
@@ -27,7 +31,7 @@ public class Menu : MonoBehaviour
         Salir = root.Q<Button>("Salir");
         Salir.RegisterCallback<ClickEvent, String>(Jugar,"Menu");
     }
-
+    // Carga la escena especificada
     private void Jugar(ClickEvent evt, String nombreEscena)
     {
         SceneManager.LoadSceneAsync(nombreEscena);
