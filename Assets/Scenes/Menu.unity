@@ -548,6 +548,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grid
       objectReference: {fileID: 0}
+    - target: {fileID: 3604776999375895800, guid: 946d09d95dd8b3848b513e2afd099ed7, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7312236181611512618, guid: 946d09d95dd8b3848b513e2afd099ed7, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -692,6 +700,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gratis-png-super-mario-bros-sapo-luigi-pixelart-thumbnail-removebg-preview_0
       objectReference: {fileID: 0}
+    - target: {fileID: 8634405418583821471, guid: 6b7454e6948be2d4f8fe22ceea56106b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -705,6 +717,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 33404427991993652, guid: b8e00f0f227e37e47b5fe6b20e017f94, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4807607121090774417, guid: b8e00f0f227e37e47b5fe6b20e017f94, type: 3}
       propertyPath: m_Name
       value: calabaza
