@@ -10,7 +10,7 @@
             <engine:Button text="Créditos" name="BotonC" class="boton" />
         </engine:VisualElement>
         <engine:VisualElement name="Nombre" class="nombre" style="flex-grow: 1;">
-            <engine:Label text="Yael Michel García López A01750911" name="Autor" class="txtautor" />
+            <engine:Label text="Yael Michel García López (A01750911)" name="Autor" class="txtautor" />
             <engine:Button text="X" name="Salir" class="botonx" />
         </engine:VisualElement>
     </engine:VisualElement>

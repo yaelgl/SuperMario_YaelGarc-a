@@ -114,3 +114,13 @@
     border-top-color: rgba(255, 255, 255, 0);
     border-bottom-color: rgba(255, 255, 255, 0);
 }
+
+.botonregreso:hover {
+    scale: 1.5 1.5;
+    transition-timing-function: ease-in-out;
+}
+
+.botonx:hover {
+    scale: 1.5 1.5;
+    transition-timing-function: ease-in-out;
+}

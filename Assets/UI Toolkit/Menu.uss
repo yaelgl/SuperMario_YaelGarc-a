@@ -89,3 +89,14 @@
     width: 76px;
     margin-bottom: 35px;
 }
+
+.boton:hover {
+    -unity-background-image-tint-color: rgb(253, 164, 164);
+    transition-timing-function: ease-in-out;
+    scale: 1.1 1.1;
+}
+
+.botonx:hover {
+    scale: 1.1 1.1;
+    transition-timing-function: ease-in-out;
+}
