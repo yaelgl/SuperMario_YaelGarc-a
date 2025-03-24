@@ -22,7 +22,8 @@ public class MuevePersonaje : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-       
+        VelocidadX=10f;
+        VelocidadY=10f;
     }
 
     // Update is called once per frame
